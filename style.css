@@ -1,0 +1,31 @@
+
+/*.head-navigator {
+  grid-area: header;
+}
+.primary-navigator {
+  grid-area: main;
+}
+.header {
+  grid-area: sidebar;
+}
+.project {
+  grid-area: footer;
+}*/
+
+body {
+	font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  top: 60px;
+  position: relative;
+  display: grid;
+  grid-template-rows:   1fr 2fr ;
+  grid-template-columns:   auto;
+  max-height: 300px;
+  
+}
